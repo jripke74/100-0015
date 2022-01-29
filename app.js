@@ -53,7 +53,8 @@ const person = {
 
 person.greet();
 
-console.log('10 + 4 = ' + (10 + 4));
-console.log('10 - 4 = ' + (10 - 4));
-console.log('10 * 4 = ' + (10 * 4));
-console.log('10 / 4 = ' + (10 / 4));
+console.log('Add: 10 + 4 = ' + (10 + 4));
+console.log('Minus: 10 - 4 = ' + (10 - 4));
+console.log('Multiply: 10 * 4 = ' + (10 * 4));
+console.log('Divide: 10 / 4 = ' + (10 / 4));
+console.log('Modolus(remainder): 10 % 4 = ' + (10 % 4));
