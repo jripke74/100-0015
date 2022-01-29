@@ -52,3 +52,8 @@ const person = {
 }
 
 person.greet();
+
+console.log('10 + 4 = ' + (10 + 4));
+console.log('10 - 4 = ' + (10 - 4));
+console.log('10 * 4 = ' + (10 * 4));
+console.log('10 / 4 = ' + (10 / 4));
