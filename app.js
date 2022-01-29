@@ -11,18 +11,18 @@ function calculateAdultYears(userAge) {
   return age - 18;
 }
 
-// alert(calculateAdultYears(age));
+console.log(calculateAdultYears(age));
 
-// age = 45;
-// alert(calculateAdultYears(age));
+age = 45;
+console.log(calculateAdultYears(age));
 
 const courseName = '100 days';
 const coursePrice = 20;
 const courseGoals = ['Master HTML', 'Master CSS', 'Master JavaScript'];
 
-// alert(courseName);
-// alert('$' + coursePrice);
-// alert(courseGoals);
+console.log(courseName);
+console.log('$' + coursePrice);
+console.log(courseGoals);
 
 const course = {
   courseName: '100 days',
@@ -30,8 +30,8 @@ const course = {
   courseGoals: ['Master HTML', 'Master CSS', 'Master JavaScript'],
 };
 
-// alert(course.courseGoals[1]);
-// alert(courseGoals[1]);
+console.log(course.courseGoals[1]);
+console.log(courseGoals[1]);
 
 function displayAGoal(indexOfGoal) {
   return courseGoals[indexOfGoal];
@@ -41,13 +41,13 @@ function getListItem(array, arrayIndex) {
   return array[arrayIndex];
 }
 
-// alert(displayAGoal(2));
-// alert(getListItem(course.courseGoals, 1));
+console.log(displayAGoal(2));
+console.log(getListItem(course.courseGoals, 1));
 
 const person = {
   name: 'Doug',
   greet() {
-    alert('Hello ' + person.name);
+    console.log('Hello ' + person.name);
   }
 }
 
