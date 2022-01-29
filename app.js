@@ -58,3 +58,11 @@ console.log('Minus: 10 - 4 = ' + (10 - 4));
 console.log('Multiply: 10 * 4 = ' + (10 * 4));
 console.log('Divide: 10 / 4 = ' + (10 / 4));
 console.log('Modolus(remainder): 10 % 4 = ' + (10 % 4));
+
+console.log('10 + 3 - 5 * 10 = ' + (10 + 3 - 5 * 10));
+
+let result = 10 + 3 - 5 * 10;
+result++;
+result += 5;
+result--;
+console.log(result);
