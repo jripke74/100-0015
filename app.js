@@ -1,6 +1,6 @@
 let age = 32;
 let userName = 'Jeff';
-let hobbies = ['Sports', 'Cooking', 'Reading'];
+let hobbies2 = ['Sports', 'Cooking', 'Reading'];
 let job = {
   title: 'Developer',
   place: 'New York',
@@ -66,3 +66,12 @@ result++;
 result += 5;
 result--;
 console.log(result);
+
+console.log('Jeff' + ' ' + 'Ripke');
+
+let userName2 = 'Douglas';
+console.log(userName2.length);
+console.log(userName2.toUpperCase());
+
+const hobbies = ['Sports', 'Photography'];
+console.log(hobbies.length);
