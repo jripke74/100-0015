@@ -7,11 +7,11 @@ let job = {
   salary: 120000,
 };
 
-function adultYears(age) {
+function calculateAdultYears(age) {
   return age - 18;
 }
 
-alert(adultYears(age));
+alert(calculateAdultYears(age));
 
 age = 45;
-alert(adultYears(age));
+alert(calculateAdultYears(age));
