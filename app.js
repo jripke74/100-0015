@@ -7,7 +7,7 @@ let job = {
   salary: 120000,
 };
 
-function calculateAdultYears(age) {
+function calculateAdultYears(userAge) {
   return age - 18;
 }
 
